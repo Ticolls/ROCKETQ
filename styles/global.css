@@ -4,6 +4,7 @@
     border: none;
     text-decoration: none;
     box-sizing: border-box;
+
 }
 
 html {
@@ -25,6 +26,9 @@ html {
 }
 
 body {
+    display: flex;
+    justify-content: center;
+
     height: 100vh;
     background: var(--background);
 }
@@ -58,7 +62,6 @@ input, button, .button {
 }
 
 button, .button {
-    font-family: 'Poppins' sans-serif;
     font-family: 500;
     line-height: 0;
 
@@ -70,6 +73,8 @@ button, .button {
     color: var(--white);
 
     cursor: pointer;
+
+    font-family: 'Poppins', sans-serif;
 }
 
 button:hover, .button:hover {
