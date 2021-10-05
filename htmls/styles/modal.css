@@ -1,3 +1,8 @@
+.modal-wrapper.active {
+    visibility: visible;
+    opacity: 1;
+}
+
 .modal-wrapper {
     position: fixed;
     width: 100vw;
@@ -10,6 +15,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
+
+    visibility: hidden;
+    opacity: 0;
 }
 
 .modal-wrapper .modal {
