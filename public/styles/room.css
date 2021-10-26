@@ -17,6 +17,7 @@
 #room header .buttons .button:nth-child(1) {
     margin-right: 0.8rem;
     padding: 1.3rem 1.6rem;
+    border: 3px solid var(--blue);
 }
 
 #room header .buttons .button:nth-child(1) img {
